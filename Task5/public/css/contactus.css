@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.main-header {
+  width: 100%;
+  height: 3.5rem;
+  background-color: #aad3e8;
+  padding: 0 1.5rem;
+}
+
+.main-header__nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.main-header__item-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.main-header__item {
+  margin: 0 1rem;
+  padding: 0;
+}
+
+.main-header__item a {
+  text-decoration: none;
+  color: black;
+}
+
+.main-header__item a:hover,
+.main-header__item a:active,
+.main-header__item a.active {
+  color: #3e00a1;
+}
+
+.contact-form {
+  width: 500px;
+  border: 1px solid #1a0202;
+  padding: 20px;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  text-align: center;
+  color: #024d45;
+}
+
+.contact-form input,
+.contact-form button {
+  margin-bottom: 20px;
+}
+.contact-form label {
+  font-size: 18px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: white;
+  font-size: large;
+  border: none;
+  padding: 15px 40px;
+  margin-left: 30%;
+  margin-right: 30%;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Optional: Style the form inputs */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form input[type="tel"],
+.contact-form input[type="datetime-local"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #b01919;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
